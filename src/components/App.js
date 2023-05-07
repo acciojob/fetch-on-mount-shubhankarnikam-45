@@ -21,7 +21,7 @@ const App = () => {
             info.map((value,index)=>(
               <div key={index}>
               
-                <h1>{value.id}. {value.title}</h1>
+                <h2>{value.id}. {value.title}</h2>
                 <p>{value.body}</p>
               </div>
             ))
